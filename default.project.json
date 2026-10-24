@@ -1,0 +1,19 @@
+{
+  "name": "StarGaze",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "StarGaze": {
+        "$path": "src/StarGaze"
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "$path": "example"
+      }
+    }
+  }
+}
