@@ -1778,7 +1778,10 @@ Themes.Definitions = {
 	},
 }
 
+-- Card is used by Runtime:card and several built-in components.
+-- Upstream themes omit it, causing Utils.color to fall back to bright Text.
 for _, theme in pairs(Themes.Definitions) do
+	theme.Card = theme.SurfaceRaised
 	theme.Input = theme.SurfaceAlt
 end
 
